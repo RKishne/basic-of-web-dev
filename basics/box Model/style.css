@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    
+}
+/* .div1{
+    width:100px;
+    height:100px;
+    background-color: red;
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid black;
+
+}
+.div2{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    margin: 40px;
+}
+.inside-div1{
+    background-color: aqua;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    
+    
+}
+.inside-div2{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    
+} */
+header{
+    width: 100%;
+    height: 50px;
+}
+
+aside{
+    width: 20%;
+    height: 500px; 
+}
+nav{
+    width: 60%;
+    height: 70%;
+}
+main{
+    width:60%;
+    height: 500px; 
+}

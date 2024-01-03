@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+}
+
+.nav-container{
+    width: 100vw;
+    /* margin-top: 50px; */
+    border: 2px solid red;
+    background-color: blue;
+    height: 100px;
+    /* position: fixed; */
+}
+.image1>img{
+    width: 100vw;
+    height: 500px;
+    /* position: relative; */
+}
+.image{
+
+    position: absolute;
+    
+    left: 50%;
+    /* bottom: 500px; */
+    top: 0;
+}
