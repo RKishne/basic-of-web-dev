@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* h1{
+    color: white;
+}
+.name{
+    color: violet;
+}
+#hhh{
+    color: burlywood;
+} */
+/* .container>p{
+    color: blue;
+    background-color: aquamarine;
+}
+ul>li {
+    color: blue;
+} */
+
+/* ul + p{
+    background-color: aqua;
+}
+h2 ~ p{
+    background-color: aqua;
+}
+h1~p:hover{
+    color: red;
+}
+button{
+    background-color: red;
+    color: white;
+}
+button:hover{
+    background-color: blue;
+    color: green;
+} */

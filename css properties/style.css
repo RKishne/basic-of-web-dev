@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* color properties */
+h1{
+   color: rgb(20, 20, 230); 
+   text-align: center;
+}
+p{
+    color: red;
+    text-align: center;
+    text-decoration:none;
+    text-transform:uppercase;
+    line-height: 1.4;
+    text-shadow: 4px 4px 4px green;
+    /* - for negative axis and + for y axix */
+}
+a{
+    text-align: center;
+    text-decoration:none;
+}
+.font-properties{
+    /* font-family: 'Bungee Spice', sans-serif; */
+    font-style: oblique;
+}
+.font-properties>h1{
+    color: blueviolet;
+    font-size: 76px;
+}
+.font-properties>p{
+    font-weight: 900;
+    font-size: 20px;
+}

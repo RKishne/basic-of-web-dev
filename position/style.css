@@ -28,3 +28,46 @@ body{
     /* bottom: 500px; */
     top: 0;
 }
+/* .outer-div{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 10px solid green;
+    overflow: hidden;
+}
+.inside-image-div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    border: 10px solid green;
+    margin-left: 30px;
+} */
+.outer-div{
+    width: 100vw;
+    height: 1000px;
+    background-color: khaki;
+}
+.outer-div>div{
+    /* margin-top: 50px; */
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    display: inline-block;
+}
+/* .box2{
+    position: relative;
+    right: 20px;
+    bottom: 40px;
+} */
+.box3{
+    position: sticky;
+    top: 50px;
+    /* left :20px; */
+}
