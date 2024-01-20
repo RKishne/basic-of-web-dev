@@ -49,7 +49,7 @@ a{
     background-color: blue;
 }
 .border-properties{
-    margin: 10%;
+    margin-inline: 30%;
     width: 500px;
     height: 500px;
     /* background-color: bisque; */
@@ -61,4 +61,15 @@ a{
     background-image: url("https://tse1.mm.bing.net/th?id=OIP.OF59vsDmwxPP1tw7b_8clQHaE8&pid=Api&P=0&h=180"); ;
     background-size: cover;
     background-position: center;
+}
+.list-properties{
+    margin: 50%;
+}
+.list-properties>ul{
+    list-style:circle;
+    list-style-position: outside;
+    list-style-image: url("https://tse1.mm.bing.net/th?id=OIP.OF59vsDmwxPP1tw7b_8clQHaE8&pid=Api&P=0&h=180");
+}
+.list-properties>ol{
+    list-style:lower-latin;
 }

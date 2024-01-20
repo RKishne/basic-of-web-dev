@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 800px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.boxxx{
+    width: 60%;
+}
+.boxxxxxx{
+    width: 30%;
+}
+
+@media  only screen and (max-width:598px){
+    .container{
+        width: 100vw;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        width: 80%;
+        height: 30%;
+    }
+}

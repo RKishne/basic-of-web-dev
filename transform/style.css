@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside-container{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transform: skew(-20deg,20deg); 
+     transform:scale(1.2);
+    transform: rotate(50deg);
+}
+
