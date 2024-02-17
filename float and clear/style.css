@@ -1,4 +1,4 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,23 +9,24 @@ img{
 div{
    float: right;
 }
-/* li{
+ li{
     float: right;;
-} */ 
-/* .container{
+} 
+ .container{
     width: 500px;
     height: 500px;
-    background-color: orange; */
-    /* display:flex ; */
-    /* flex-direction: row-reverse; */
-/* }
+    background-color: orange; 
+     display:flex ;
+     flex-direction: row-reverse; 
+ }
 h1{
     display: inline;    
 }
-img{
+.imgage{
     float: right;
-} */
+    /* clear: left; */
+} 
 
-/* p{
- clear: right;
-} */
+ p{
+    clear: right;
+}

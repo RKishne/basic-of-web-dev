@@ -22,11 +22,14 @@ body{
     border: 2px solid green;
     overflow: hidden;
 }
+.container2:hover{
+    overflow: visible;
+}
 .container3{
     width: 200px;
     height: 400px;
     border: 2px solid green;
-    overflow:scroll;
+    overflow: scroll  scroll;
     display: flex;
 }
 .container3>div{
