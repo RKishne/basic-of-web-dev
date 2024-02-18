@@ -18,21 +18,21 @@
     background-color: aqua;
 }
 .boxxx{
-    width: 60%;
+    width: 60% ;
 }
 .boxxxxxx{
-    width: 30%;
+    width: 30% ;
 }
 
-@media  only screen and (max-width:598px){
-    .container{
-        width: 100vw;
+@media only screen and (min-width: 768px) and (max-width:920px) {
+    .boxxxxxx{
+        width: 30%;
         background-color: blue;
-        display: flex;
-        flex-direction: column;
     }
-    .box{
-        width: 80%;
-        height: 30%;
+    .container{
+        flex-wrap: wrap;
+    }
+    #box-3{
+        background-color: green;
     }
 }
